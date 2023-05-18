@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Burger Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Burger Restaurant</h1>
+  <form id="order-form">
+
+    <label for="burger-type">Burger Type:</label>
+
+    <select id="burger-type">
+
+      <option value="royal">Royal</option>
+      <option value="classic">Classic</option>
+      <option value="vegetarian">Vegetarian</option>
+
+    </select>
+    <label for="sauce-type">Sauce Type:</label>
+
+    <select id="sauce-type">
+
+      <option value="garlic">Garlic</option>
+      <option value="ketchup">Ketchup</option>
+
+    </select>
+
+    <button type="submit">Place Order</button>
+
+  </form>
+  
+  <div id="result"></div>
+
+  <script type="module" src="lead.js"></script>
+</body>
+</html>
